@@ -1358,55 +1358,55 @@
         height: 0.6vw;
     }
     #id_menu {
-		z-index: 100;
-	}
-    #id_menu .div {
-		width: 8vw;
-		height: 6.2vw;
-		overflow: hidden;
-		position: absolute;
-		top: 5.7vw;
-		right: 3.5vw;
+	z-index: 100;
     }
-	#id_menu .menu_open {
-		color: rgba(255,255,255,1);
-		display: block;
-		width: 8vw;
-		height: 6.2vw;
-		position: absolute;
-		top: 0vw;
-		right: 0vw;
-	}
-	#id_menu .menu_close {
-		color: rgba(255,255,255,1);
-		display: none;
-		width: 8vw;
-		height: 6.2vw;
-		position: absolute;
-		top: 0vw;
-		left: 0vw;
-	}
-	#id_menu ul {
-        list-style: none;
-		border-radius: 10px;
-		background: rgba(255,255,255,1);
-		width: 260px;
-        height: 500px;
-		position: absolute;
-		top: 12vw;
-		right: 3vw;
-        display: none;
-	}
+    #id_menu .div {
+	width: 8vw;
+	height: 6.2vw;
+	overflow: hidden;
+	position: absolute;
+	top: 5.7vw;
+	right: 3.5vw;
+    }
+    #id_menu .menu_open {
+	color: rgba(255,255,255,1);
+	display: block;
+	width: 8vw;
+	height: 6.2vw;
+	position: absolute;
+	top: 0vw;
+	right: 0vw;
+    }
+    #id_menu .menu_close {
+	color: rgba(255,255,255,1);
+	display: none;
+	width: 8vw;
+	height: 6.2vw;
+	position: absolute;
+	top: 0vw;
+	left: 0vw;
+    }
+    #id_menu ul {
+	list-style: none;
+	border-radius: 10px;
+	background: rgba(255,255,255,1);
+	width: 260px;
+	height: 500px;
+	position: absolute;
+	top: 12vw;
+	right: 3vw;
+	display: none;
+    }
 
-	#id_menu li {
-        margin-left: -40px;
-        margin-bottom: 0px;
-        justify-content: center;
-        width: 301px;
-        height: 70px;
-		text-align: center;
-		color: black;
-	}
+    #id_menu li {
+	margin-left: -40px;
+	margin-bottom: 0px;
+	justify-content: center;
+	width: 301px;
+	height: 70px;
+	text-align: center;
+	color: black;
+    }
     #id_menu li button {
         margin-bottom: 0px;
         width: 301px;
@@ -1415,21 +1415,21 @@
         border: none;
     }
 
-	#id_menu a {
-		text-decoration: none;
-	}
+    #id_menu a {
+	text-decoration: none;
+    }
 
-	#id_menu:target .menu_open {
-		display: none;
-	}
+    #id_menu:target .menu_open {
+	display: none;
+    }
 
-	#id_menu:target .menu_close {
-		display: block;
-	}
+    #id_menu:target .menu_close {
+	display: block;
+    }
 
-	#id_menu:target ul {
-		display: block;
-	}
+    #id_menu:target ul {
+	display: block;
+    }
     .list_bgcolor_man_1:hover {
         background-color: rgb(106, 155, 174);
     }
