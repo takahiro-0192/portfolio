@@ -1172,6 +1172,7 @@
     .create_account_page_wrapper {
         position: absolute;
         top: 13vw;
+	left: 0;
         display: flex;
         justify-content: center;
         width: 100%;
